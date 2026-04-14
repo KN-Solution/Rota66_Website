@@ -108,11 +108,14 @@ nav a:hover {
 }
 
 .card {
-    background: #111;
+    background: #11111146;
     padding: 30px;
     border-radius: 10px;
     border: 1px solid #222;
     transition: 0.3s;
+    cursor: pointer;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
 }
 
 .card:hover {
